@@ -1,0 +1,11 @@
+[build]
+compiler = "gcc"
+
+[[targets]]
+name = "main"
+src = "./src/"
+include_dir = "./src/"
+type = "exe"
+cflags = "-g -Wall -Wextra"
+libs = ""
+deps = [""]
